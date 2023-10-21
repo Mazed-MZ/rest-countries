@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.users{
+  background-color: rgb(7, 48, 105);
+  border: 3px solid rgb(132, 17, 136);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  color: antiquewhite;
+}
+.country{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
