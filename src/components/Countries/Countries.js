@@ -3,7 +3,7 @@ import './Countries.css';
 
 function Countries(props) {
 
-    const { name, population, region } = props.countriesData;
+    const { name, population, region, flags, capital, fifa, timezones, subregion } = props.countriesData;
     return (
         <div className='restcountry'>
             {/*
@@ -20,8 +20,12 @@ function Countries(props) {
 
             {/* ---->>>> Option Three <<<<---- */}
             <h1>{name.common}</h1>
+            <img src={flags.png} alt="" />
             <p>Population: {population}</p>
             <p>Region: {region}</p>
+            <p>Subregion: {subregion}</p>
+            <p>Fifa Short name: {fifa}</p>
+            <p>Capital: {capital}</p>
         </div>
     )
 }

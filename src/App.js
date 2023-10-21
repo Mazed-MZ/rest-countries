@@ -11,6 +11,8 @@ function App() {
       .then(data => setCountry(data))
   }, []);
 
+  console.log(country);
+
   return (
     <div className="users">
       <h1>My Rest Countries</h1>

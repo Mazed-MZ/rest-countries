@@ -3,5 +3,9 @@
     border: 3px solid greenyellow;
     border-radius: 20px;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
   }
+.restcountry img{
+    width: 80%;
+}
